@@ -7,8 +7,10 @@ function App() {
   return (
     <>
       <Header />
-      <HeroSection />
-      <TaskBoard />
+      <div className=" flex flex-col justify-center items-center">
+        <HeroSection />
+        <TaskBoard />
+      </div>
       <Footer />
     </>
   );
